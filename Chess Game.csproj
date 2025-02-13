@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>chess_knight_icon_198476.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -164,6 +167,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\b_Pawn1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chess_knight_icon_198476.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

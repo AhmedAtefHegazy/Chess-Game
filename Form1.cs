@@ -43,14 +43,14 @@ namespace Chess_Game
         {
             if (!PieceChoosed)
             {
-                ((Button)sender).BackColor = Color.Green;
+                ((Button)sender).BackColor = Color.FromArgb(255, 185, 204, 54);
                 PieceChoosed = true;
 
                 PieceToMove = ((Button)sender);
 
             }
 
-            else if (PieceChoosed && (((Button)sender).BackColor == Color.Green))
+            else if (PieceChoosed && (((Button)sender).BackColor == Color.FromArgb(255, 185, 204, 54)))
             {
                 ((Button)sender).BackColor = Color.Transparent;
                 PieceChoosed = false;
@@ -128,9 +128,17 @@ namespace Chess_Game
                 }
 
 
-                if (PieceToMove.Tag.ToString() == "w_Bishop_WhiteSide"
-               && ((Old_Position + 7 == New_Position || Old_Position + 9 == New_Position)
-               || (Old_Position - 7 == New_Position || Old_Position - 9 == New_Position)
+                if (PieceToMove.Tag.ToString() == "w_Knight"
+               && (
+
+               (Old_Position + 6 == New_Position || Old_Position + 15 == New_Position
+               || Old_Position + 17 == New_Position || Old_Position + 10 == New_Position)
+
+               ||
+
+               (Old_Position - 6 == New_Position || Old_Position - 15 == New_Position
+               || Old_Position - 17 == New_Position || Old_Position - 10 == New_Position)
+
                ))
                 {
                     PieceToMove.BackColor = Color.Transparent;
@@ -139,6 +147,27 @@ namespace Chess_Game
                     PieceChoosed = false;
 
                 }
+
+                if (PieceToMove.Tag.ToString() == "b_Knight"
+             && (
+
+             (Old_Position + 6 == New_Position || Old_Position + 15 == New_Position
+             || Old_Position + 17 == New_Position || Old_Position + 10 == New_Position)
+
+             ||
+
+             (Old_Position - 6 == New_Position || Old_Position - 15 == New_Position
+             || Old_Position - 17 == New_Position || Old_Position - 10 == New_Position)
+
+             ))
+                {
+                    PieceToMove.BackColor = Color.Transparent;
+                    PieceToMove.Parent = ((Panel)sender);
+                    PieceToMove.BringToFront();
+                    PieceChoosed = false;
+
+                }
+
 
                 PieceToMove.BackColor = Color.Transparent;
                 PieceToMove = null;
