@@ -22,7 +22,7 @@ namespace Chess_Game
                     int row = tableLayoutPanel1.GetRow(cntrl);
                     int column = tableLayoutPanel1.GetColumn(cntrl);
 
-                    if ((row + column) % 2 == 0)
+                    if ((row + column) % 2 != 0)
                     {
                         cntrl.BackColor = Color.Gray;
                     }
