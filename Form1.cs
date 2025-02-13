@@ -47,7 +47,6 @@ namespace Chess_Game
                 PieceChoosed = true;
 
                 PieceToMove = ((Button)sender);
-
             }
 
             else if (PieceChoosed && (((Button)sender).BackColor == Color.FromArgb(255, 185, 204, 54)))
@@ -56,7 +55,6 @@ namespace Chess_Game
                 PieceChoosed = false;
 
                 PieceToMove = null;
-
             }
         }
 
@@ -172,7 +170,6 @@ namespace Chess_Game
                 PieceToMove.BackColor = Color.Transparent;
                 PieceToMove = null;
                 PieceChoosed = false;
-
             }
 
             else
