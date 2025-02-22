@@ -12,6 +12,10 @@ namespace Chess_Game
             PaintingTheBoard();
         }
 
+        private bool PieceChoosed = false;
+        private bool WhiteTurn = true;
+        private Button PieceToMove = null;
+
         private void PaintingTheBoard()
         {
             foreach (Control cntrl in tableLayoutPanel1.Controls)
@@ -35,18 +39,27 @@ namespace Chess_Game
             }
         }
 
-        private bool PieceChoosed = false;
-        private Button PieceToMove = null;
-
-
         private void btn_Click(object sender, EventArgs e)
         {
             if (!PieceChoosed)
             {
-                ((Button)sender).BackColor = Color.FromArgb(255, 185, 204, 54);
-                PieceChoosed = true;
+                if (((Button)sender).Tag.ToString().Substring(0, 1) == "w" && WhiteTurn)
+                {
+                    ((Button)sender).BackColor = Color.FromArgb(255, 185, 204, 54);
+                    PieceChoosed = true;
 
-                PieceToMove = ((Button)sender);
+                    PieceToMove = ((Button)sender);
+                }
+
+                else if (((Button)sender).Tag.ToString().Substring(0, 1) == "b" && !WhiteTurn)
+                {
+                    ((Button)sender).BackColor = Color.FromArgb(255, 185, 204, 54);
+                    PieceChoosed = true;
+
+                    PieceToMove = ((Button)sender);
+                }
+
+
             }
 
             else if (PieceChoosed && (((Button)sender).BackColor == Color.FromArgb(255, 185, 204, 54)))
@@ -56,17 +69,21 @@ namespace Chess_Game
 
                 PieceToMove = null;
             }
+
+            //else if (PieceChoosed && (((Button)sender).BackColor != Color.FromArgb(255, 185, 204, 54)))
+            //{
+
+            //    PieceToMove.Parent = ((Button)sender).Parent;
+            //    ((Button)sender).Parent = null;
+            //    PieceChoosed = false;
+
+            //    PieceToMove = null;
+            //}
+
         }
 
         private void panel_Click(object sender, EventArgs e)
         {
-            //if (PieceChoosed)
-            //{
-            //    PieceToMove.BackColor = Color.Transparent;
-            //    PieceToMove.Parent = ((Panel)sender);
-            //    PieceToMove.BringToFront();
-            //    PieceChoosed = false;
-            //}
 
             if (PieceChoosed)
             {
@@ -74,102 +91,407 @@ namespace Chess_Game
                 byte New_Position = Convert.ToByte(((Panel)sender).Tag);
 
 
-                if (PieceToMove.Tag.ToString() == "w_Pawn")
+                if (PieceToMove.Tag.ToString() == "w_Pawn" && WhiteTurn)
                 {
-                    if ((Old_Position + 8 == New_Position))
+                    if ((Old_Position + 10 == New_Position))
                     {
                         PieceToMove.Parent = ((Panel)sender);
                         PieceToMove.BackColor = Color.Transparent;
                         PieceChoosed = false;
+                        WhiteTurn = false;
                     }
 
-                    else if ((Old_Position + 16 == New_Position)
+                    else if ((Old_Position + 20 == New_Position)
                         &&
-                        (Convert.ToByte(PieceToMove.Parent.Tag) == 16
-                        || Convert.ToByte(PieceToMove.Parent.Tag) == 15
-                        || Convert.ToByte(PieceToMove.Parent.Tag) == 14
-                        || Convert.ToByte(PieceToMove.Parent.Tag) == 13
-                        || Convert.ToByte(PieceToMove.Parent.Tag) == 12
-                        || Convert.ToByte(PieceToMove.Parent.Tag) == 11
-                        || Convert.ToByte(PieceToMove.Parent.Tag) == 10
-                        || Convert.ToByte(PieceToMove.Parent.Tag) == 9))
+                        (Convert.ToByte(PieceToMove.Parent.Tag) == 21
+                        || Convert.ToByte(PieceToMove.Parent.Tag) == 22
+                        || Convert.ToByte(PieceToMove.Parent.Tag) == 23
+                        || Convert.ToByte(PieceToMove.Parent.Tag) == 24
+                        || Convert.ToByte(PieceToMove.Parent.Tag) == 25
+                        || Convert.ToByte(PieceToMove.Parent.Tag) == 26
+                        || Convert.ToByte(PieceToMove.Parent.Tag) == 27
+                        || Convert.ToByte(PieceToMove.Parent.Tag) == 28))
                     {
                         PieceToMove.Parent = ((Panel)sender);
                         PieceToMove.BackColor = Color.Transparent;
                         PieceChoosed = false;
+                        WhiteTurn = false;
                     }
                 }
 
-                if (PieceToMove.Tag.ToString() == "b_Pawn")
+
+
+                if (PieceToMove.Tag.ToString() == "b_Pawn" && !WhiteTurn)
                 {
-                    if ((Old_Position - 8 == New_Position))
+                    if ((Old_Position - 10 == New_Position))
                     {
                         PieceToMove.Parent = ((Panel)sender);
                         PieceToMove.BackColor = Color.Transparent;
                         PieceChoosed = false;
+                        WhiteTurn = true;
                     }
 
-                    else if ((Old_Position - 16 == New_Position) &&
-                        (Convert.ToByte(PieceToMove.Parent.Tag) == 56
-                        || Convert.ToByte(PieceToMove.Parent.Tag) == 55
-                        || Convert.ToByte(PieceToMove.Parent.Tag) == 54
-                        || Convert.ToByte(PieceToMove.Parent.Tag) == 53
-                        || Convert.ToByte(PieceToMove.Parent.Tag) == 52
-                        || Convert.ToByte(PieceToMove.Parent.Tag) == 51
-                        || Convert.ToByte(PieceToMove.Parent.Tag) == 50
-                        || Convert.ToByte(PieceToMove.Parent.Tag) == 49))
+                    else if ((Old_Position - 20 == New_Position) &&
+                        (Convert.ToByte(PieceToMove.Parent.Tag) == 71
+                        || Convert.ToByte(PieceToMove.Parent.Tag) == 72
+                        || Convert.ToByte(PieceToMove.Parent.Tag) == 73
+                        || Convert.ToByte(PieceToMove.Parent.Tag) == 74
+                        || Convert.ToByte(PieceToMove.Parent.Tag) == 75
+                        || Convert.ToByte(PieceToMove.Parent.Tag) == 76
+                        || Convert.ToByte(PieceToMove.Parent.Tag) == 77
+                        || Convert.ToByte(PieceToMove.Parent.Tag) == 78))
                     {
                         PieceToMove.Parent = ((Panel)sender);
                         PieceToMove.BackColor = Color.Transparent;
                         PieceChoosed = false;
+                        WhiteTurn = true;
                     }
                 }
 
 
-                if (PieceToMove.Tag.ToString() == "w_Knight"
-               && (
 
-               (Old_Position + 6 == New_Position || Old_Position + 15 == New_Position
-               || Old_Position + 17 == New_Position || Old_Position + 10 == New_Position)
 
-               ||
+                if ((PieceToMove.Tag.ToString() == "w_Knight" && WhiteTurn)
+                 && (
 
-               (Old_Position - 6 == New_Position || Old_Position - 15 == New_Position
-               || Old_Position - 17 == New_Position || Old_Position - 10 == New_Position)
+                 (Old_Position + 12 == New_Position || Old_Position + 21 == New_Position
+                 || Old_Position + 8 == New_Position || Old_Position + 19 == New_Position
 
-               ))
-                {
-                    PieceToMove.BackColor = Color.Transparent;
-                    PieceToMove.Parent = ((Panel)sender);
-                    PieceToMove.BringToFront();
-                    PieceChoosed = false;
+                 ||
 
-                }
+                 Old_Position - 8 == New_Position || Old_Position - 19 == New_Position
+                 || Old_Position - 12 == New_Position || Old_Position - 21 == New_Position)
 
-                if (PieceToMove.Tag.ToString() == "b_Knight"
-             && (
-
-             (Old_Position + 6 == New_Position || Old_Position + 15 == New_Position
-             || Old_Position + 17 == New_Position || Old_Position + 10 == New_Position)
-
-             ||
-
-             (Old_Position - 6 == New_Position || Old_Position - 15 == New_Position
-             || Old_Position - 17 == New_Position || Old_Position - 10 == New_Position)
-
-             ))
+                 ))
                 {
                     PieceToMove.BackColor = Color.Transparent;
                     PieceToMove.Parent = ((Panel)sender);
-                    PieceToMove.BringToFront();
                     PieceChoosed = false;
-
+                    WhiteTurn = false;
                 }
 
 
-                PieceToMove.BackColor = Color.Transparent;
-                PieceToMove = null;
-                PieceChoosed = false;
+
+                if ((PieceToMove.Tag.ToString() == "b_Knight" && !WhiteTurn)
+                && (
+
+                (Old_Position + 8 == New_Position || Old_Position + 19 == New_Position
+                || Old_Position + 12 == New_Position || Old_Position + 21 == New_Position
+
+                ||
+
+                Old_Position - 8 == New_Position || Old_Position - 19 == New_Position
+                || Old_Position - 12 == New_Position || Old_Position - 21 == New_Position)
+
+                ))
+                {
+                    PieceToMove.BackColor = Color.Transparent;
+                    PieceToMove.Parent = ((Panel)sender);
+                    PieceChoosed = false;
+                    WhiteTurn = true;
+                }
+
+
+
+                if (
+
+                    (PieceToMove.Tag.ToString() == "w_Rook" && WhiteTurn)
+
+                    && ((tableLayoutPanel1.GetColumn(PieceToMove.Parent) == tableLayoutPanel1.GetColumn(sender as Panel))
+
+                    || (tableLayoutPanel1.GetRow(PieceToMove.Parent) == tableLayoutPanel1.GetRow(sender as Panel)))
+
+                   )
+                {
+                    PieceToMove.BackColor = Color.Transparent;
+                    PieceToMove.Parent = ((Panel)sender);
+                    PieceChoosed = false;
+                    WhiteTurn = false;
+                }
+
+
+                if (
+
+                    (PieceToMove.Tag.ToString() == "b_Rook" && !WhiteTurn)
+
+                    && ((tableLayoutPanel1.GetColumn(PieceToMove.Parent) == tableLayoutPanel1.GetColumn(sender as Panel))
+
+                    || (tableLayoutPanel1.GetRow(PieceToMove.Parent) == tableLayoutPanel1.GetRow(sender as Panel)))
+
+                    )
+                {
+                    PieceToMove.BackColor = Color.Transparent;
+                    PieceToMove.Parent = ((Panel)sender);
+                    PieceChoosed = false;
+                    WhiteTurn = true;
+                }
+
+
+                if (
+
+                  (PieceToMove.Tag.ToString() == "w_Bishop_WhiteSide" && WhiteTurn)
+
+                  &&
+
+                  ((New_Position == Old_Position + 11 || New_Position == Old_Position + 22 || New_Position == Old_Position + 33
+                  || New_Position == Old_Position + 44 || New_Position == Old_Position + 55 || New_Position == Old_Position + 66
+                  || New_Position == Old_Position + 77)
+
+                  ||
+
+                  (New_Position == Old_Position - 11 || New_Position == Old_Position - 22 || New_Position == Old_Position - 33
+                  || New_Position == Old_Position - 44 || New_Position == Old_Position - 55 || New_Position == Old_Position - 66
+                  || New_Position == Old_Position - 77)
+
+                  ||
+
+                  (New_Position == Old_Position + 9 || New_Position == Old_Position + 18 || New_Position == Old_Position + 27
+                  || New_Position == Old_Position + 36 || New_Position == Old_Position + 45 || New_Position == Old_Position + 54
+                  || New_Position == Old_Position + 63)
+
+                  ||
+
+                  (New_Position == Old_Position - 9 || New_Position == Old_Position - 18 || New_Position == Old_Position - 27
+                  || New_Position == Old_Position - 36 || New_Position == Old_Position - 45 || New_Position == Old_Position - 54
+                  || New_Position == Old_Position - 63)
+
+                 ) &&
+                  ((sender as Panel).BackColor == Color.White))
+                {
+                    PieceToMove.BackColor = Color.Transparent;
+                    PieceToMove.Parent = ((Panel)sender);
+                    PieceChoosed = false;
+                    WhiteTurn = false;
+                }
+
+
+
+                if (
+
+                  (PieceToMove.Tag.ToString() == "w_Bishop_BlackSide" && WhiteTurn)
+
+                  &&
+
+                  ((New_Position == Old_Position + 11 || New_Position == Old_Position + 22 || New_Position == Old_Position + 33
+                  || New_Position == Old_Position + 44 || New_Position == Old_Position + 55 || New_Position == Old_Position + 66
+                  || New_Position == Old_Position + 77)
+
+                  ||
+
+                  (New_Position == Old_Position - 11 || New_Position == Old_Position - 22 || New_Position == Old_Position - 33
+                  || New_Position == Old_Position - 44 || New_Position == Old_Position - 55 || New_Position == Old_Position - 66
+                  || New_Position == Old_Position - 77)
+
+                  ||
+
+                  (New_Position == Old_Position + 9 || New_Position == Old_Position + 18 || New_Position == Old_Position + 27
+                  || New_Position == Old_Position + 36 || New_Position == Old_Position + 45 || New_Position == Old_Position + 54
+                  || New_Position == Old_Position + 63)
+
+                  ||
+
+                  (New_Position == Old_Position - 9 || New_Position == Old_Position - 18 || New_Position == Old_Position - 27
+                  || New_Position == Old_Position - 36 || New_Position == Old_Position - 45 || New_Position == Old_Position - 54
+                  || New_Position == Old_Position - 63)
+
+                 ) &&
+                  ((sender as Panel).BackColor == Color.Gray))
+                {
+                    PieceToMove.BackColor = Color.Transparent;
+                    PieceToMove.Parent = ((Panel)sender);
+                    PieceChoosed = false;
+                    WhiteTurn = false;
+                }
+
+
+                if (
+
+                  (PieceToMove.Tag.ToString() == "b_Bishop_WhiteSide" && !WhiteTurn)
+
+                  &&
+
+                  ((New_Position == Old_Position + 11 || New_Position == Old_Position + 22 || New_Position == Old_Position + 33
+                  || New_Position == Old_Position + 44 || New_Position == Old_Position + 55 || New_Position == Old_Position + 66
+                  || New_Position == Old_Position + 77)
+
+                  ||
+
+                  (New_Position == Old_Position - 11 || New_Position == Old_Position - 22 || New_Position == Old_Position - 33
+                  || New_Position == Old_Position - 44 || New_Position == Old_Position - 55 || New_Position == Old_Position - 66
+                  || New_Position == Old_Position - 77)
+
+                  ||
+
+                  (New_Position == Old_Position + 9 || New_Position == Old_Position + 18 || New_Position == Old_Position + 27
+                  || New_Position == Old_Position + 36 || New_Position == Old_Position + 45 || New_Position == Old_Position + 54
+                  || New_Position == Old_Position + 63)
+
+                  ||
+
+                  (New_Position == Old_Position - 9 || New_Position == Old_Position - 18 || New_Position == Old_Position - 27
+                  || New_Position == Old_Position - 36 || New_Position == Old_Position - 45 || New_Position == Old_Position - 54
+                  || New_Position == Old_Position - 63)
+
+                 ) &&
+                  ((sender as Panel).BackColor == Color.White))
+                {
+                    PieceToMove.BackColor = Color.Transparent;
+                    PieceToMove.Parent = ((Panel)sender);
+                    PieceChoosed = false;
+                    WhiteTurn = true;
+                }
+
+
+
+                if (
+
+                  (PieceToMove.Tag.ToString() == "b_Bishop_BlackSide" && !WhiteTurn)
+
+                  &&
+
+                  ((New_Position == Old_Position + 11 || New_Position == Old_Position + 22 || New_Position == Old_Position + 33
+                  || New_Position == Old_Position + 44 || New_Position == Old_Position + 55 || New_Position == Old_Position + 66
+                  || New_Position == Old_Position + 77)
+
+                  ||
+
+                  (New_Position == Old_Position - 11 || New_Position == Old_Position - 22 || New_Position == Old_Position - 33
+                  || New_Position == Old_Position - 44 || New_Position == Old_Position - 55 || New_Position == Old_Position - 66
+                  || New_Position == Old_Position - 77)
+
+                  ||
+
+                  (New_Position == Old_Position + 9 || New_Position == Old_Position + 18 || New_Position == Old_Position + 27
+                  || New_Position == Old_Position + 36 || New_Position == Old_Position + 45 || New_Position == Old_Position + 54
+                  || New_Position == Old_Position + 63)
+
+                  ||
+
+                  (New_Position == Old_Position - 9 || New_Position == Old_Position - 18 || New_Position == Old_Position - 27
+                  || New_Position == Old_Position - 36 || New_Position == Old_Position - 45 || New_Position == Old_Position - 54
+                  || New_Position == Old_Position - 63)
+
+                 ) &&
+                  ((sender as Panel).BackColor == Color.Gray))
+                {
+                    PieceToMove.BackColor = Color.Transparent;
+                    PieceToMove.Parent = ((Panel)sender);
+                    PieceChoosed = false;
+                    WhiteTurn = true;
+                }
+
+
+                if ((PieceToMove.Tag.ToString() == "w_Queen" && WhiteTurn)
+
+                    && ((tableLayoutPanel1.GetColumn(PieceToMove.Parent) == tableLayoutPanel1.GetColumn(sender as Panel))
+
+                    || (tableLayoutPanel1.GetRow(PieceToMove.Parent) == tableLayoutPanel1.GetRow(sender as Panel))
+
+                    ||
+
+
+                  ((New_Position == Old_Position + 11 || New_Position == Old_Position + 22 || New_Position == Old_Position + 33
+                  || New_Position == Old_Position + 44 || New_Position == Old_Position + 55 || New_Position == Old_Position + 66
+                  || New_Position == Old_Position + 77)
+
+                  ||
+
+                  (New_Position == Old_Position - 11 || New_Position == Old_Position - 22 || New_Position == Old_Position - 33
+                  || New_Position == Old_Position - 44 || New_Position == Old_Position - 55 || New_Position == Old_Position - 66
+                  || New_Position == Old_Position - 77)
+
+                  ||
+
+                  (New_Position == Old_Position + 9 || New_Position == Old_Position + 18 || New_Position == Old_Position + 27
+                  || New_Position == Old_Position + 36 || New_Position == Old_Position + 45 || New_Position == Old_Position + 54
+                  || New_Position == Old_Position + 63)
+
+                  ||
+
+                  (New_Position == Old_Position - 9 || New_Position == Old_Position - 18 || New_Position == Old_Position - 27
+                  || New_Position == Old_Position - 36 || New_Position == Old_Position - 45 || New_Position == Old_Position - 54
+                  || New_Position == Old_Position - 63)))
+
+                  )
+                {
+                    PieceToMove.BackColor = Color.Transparent;
+                    PieceToMove.Parent = ((Panel)sender);
+                    PieceChoosed = false;
+                    WhiteTurn = false;
+                }
+
+
+
+                if ((PieceToMove.Tag.ToString() == "b_Queen" && !WhiteTurn)
+
+                && ((tableLayoutPanel1.GetColumn(PieceToMove.Parent) == tableLayoutPanel1.GetColumn(sender as Panel))
+
+                || (tableLayoutPanel1.GetRow(PieceToMove.Parent) == tableLayoutPanel1.GetRow(sender as Panel))
+
+                ||
+
+
+                ((New_Position == Old_Position + 11 || New_Position == Old_Position + 22 || New_Position == Old_Position + 33
+                || New_Position == Old_Position + 44 || New_Position == Old_Position + 55 || New_Position == Old_Position + 66
+                || New_Position == Old_Position + 77)
+
+                ||
+
+                (New_Position == Old_Position - 11 || New_Position == Old_Position - 22 || New_Position == Old_Position - 33
+                || New_Position == Old_Position - 44 || New_Position == Old_Position - 55 || New_Position == Old_Position - 66
+                || New_Position == Old_Position - 77)
+
+                ||
+
+                (New_Position == Old_Position + 9 || New_Position == Old_Position + 18 || New_Position == Old_Position + 27
+                || New_Position == Old_Position + 36 || New_Position == Old_Position + 45 || New_Position == Old_Position + 54
+                || New_Position == Old_Position + 63)
+
+                ||
+
+                (New_Position == Old_Position - 9 || New_Position == Old_Position - 18 || New_Position == Old_Position - 27
+                || New_Position == Old_Position - 36 || New_Position == Old_Position - 45 || New_Position == Old_Position - 54
+                || New_Position == Old_Position - 63)))
+
+                )
+                {
+                    PieceToMove.BackColor = Color.Transparent;
+                    PieceToMove.Parent = ((Panel)sender);
+                    PieceChoosed = false;
+                    WhiteTurn = true;
+                }
+
+
+
+                if ((PieceToMove.Tag.ToString() == "w_King" && WhiteTurn)
+                    &&
+                    (New_Position == Old_Position + 1 || New_Position == Old_Position - 1 || New_Position == Old_Position + 10
+                    || New_Position == Old_Position - 10 || New_Position == Old_Position + 11 || New_Position == Old_Position - 11
+                    || New_Position == Old_Position + 9 || New_Position == Old_Position - 9)
+                    )
+                {
+                    PieceToMove.BackColor = Color.Transparent;
+                    PieceToMove.Parent = ((Panel)sender);
+                    PieceChoosed = false;
+                    WhiteTurn = false;
+                }
+
+                if ((PieceToMove.Tag.ToString() == "b_King" && !WhiteTurn)
+                   &&
+                   (New_Position == Old_Position + 1 || New_Position == Old_Position - 1 || New_Position == Old_Position + 10
+                    || New_Position == Old_Position - 10 || New_Position == Old_Position + 11 || New_Position == Old_Position - 11
+                    || New_Position == Old_Position + 9 || New_Position == Old_Position - 9)
+                   )
+                {
+                    PieceToMove.BackColor = Color.Transparent;
+                    PieceToMove.Parent = ((Panel)sender);
+                    PieceChoosed = false;
+                    WhiteTurn = true;
+                }
+
+                //PieceToMove.BackColor = Color.Transparent;
+                //PieceToMove = null;
+                //PieceChoosed = false;
             }
 
             else
@@ -178,5 +500,6 @@ namespace Chess_Game
             }
 
         }
+
     }
 }

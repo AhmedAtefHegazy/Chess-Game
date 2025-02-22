@@ -30,31 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.P9 = new System.Windows.Forms.Panel();
-            this.button25 = new System.Windows.Forms.Button();
             this.P2 = new System.Windows.Forms.Panel();
-            this.button30 = new System.Windows.Forms.Button();
             this.P3 = new System.Windows.Forms.Panel();
-            this.button27 = new System.Windows.Forms.Button();
             this.P4 = new System.Windows.Forms.Panel();
-            this.button26 = new System.Windows.Forms.Button();
             this.P5 = new System.Windows.Forms.Panel();
-            this.button24 = new System.Windows.Forms.Button();
             this.P6 = new System.Windows.Forms.Panel();
             this.button22 = new System.Windows.Forms.Button();
             this.P7 = new System.Windows.Forms.Panel();
-            this.button20 = new System.Windows.Forms.Button();
             this.P16 = new System.Windows.Forms.Panel();
-            this.button29 = new System.Windows.Forms.Button();
             this.P15 = new System.Windows.Forms.Panel();
-            this.button21 = new System.Windows.Forms.Button();
             this.P14 = new System.Windows.Forms.Panel();
-            this.button32 = new System.Windows.Forms.Button();
             this.P13 = new System.Windows.Forms.Panel();
-            this.button23 = new System.Windows.Forms.Button();
             this.P11 = new System.Windows.Forms.Panel();
-            this.button28 = new System.Windows.Forms.Button();
             this.P10 = new System.Windows.Forms.Panel();
-            this.button19 = new System.Windows.Forms.Button();
             this.P18 = new System.Windows.Forms.Panel();
             this.P20 = new System.Windows.Forms.Panel();
             this.P19 = new System.Windows.Forms.Panel();
@@ -77,43 +65,26 @@
             this.P43 = new System.Windows.Forms.Panel();
             this.P42 = new System.Windows.Forms.Panel();
             this.P50 = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
             this.P51 = new System.Windows.Forms.Panel();
-            this.button11 = new System.Windows.Forms.Button();
             this.P52 = new System.Windows.Forms.Panel();
-            this.button13 = new System.Windows.Forms.Button();
             this.P53 = new System.Windows.Forms.Panel();
-            this.button12 = new System.Windows.Forms.Button();
             this.P54 = new System.Windows.Forms.Panel();
-            this.button16 = new System.Windows.Forms.Button();
             this.P55 = new System.Windows.Forms.Panel();
-            this.button15 = new System.Windows.Forms.Button();
             this.P56 = new System.Windows.Forms.Panel();
-            this.button14 = new System.Windows.Forms.Button();
             this.P63 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
             this.P62 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
             this.P61 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
             this.P60 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
             this.P59 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
             this.P58 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
             this.P49 = new System.Windows.Forms.Panel();
-            this.button10 = new System.Windows.Forms.Button();
             this.P41 = new System.Windows.Forms.Panel();
             this.P25 = new System.Windows.Forms.Panel();
             this.P17 = new System.Windows.Forms.Panel();
             this.P1 = new System.Windows.Forms.Panel();
-            this.button17 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.P64 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.P57 = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
             this.P33 = new System.Windows.Forms.Panel();
             this.P34 = new System.Windows.Forms.Panel();
             this.P35 = new System.Windows.Forms.Panel();
@@ -123,10 +94,39 @@
             this.P39 = new System.Windows.Forms.Panel();
             this.P40 = new System.Windows.Forms.Panel();
             this.P12 = new System.Windows.Forms.Panel();
-            this.button18 = new System.Windows.Forms.Button();
             this.P8 = new System.Windows.Forms.Panel();
-            this.button31 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button31 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button29 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button30 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button32 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
             this.P9.SuspendLayout();
             this.P2.SuspendLayout();
             this.P3.SuspendLayout();
@@ -165,28 +165,14 @@
             // 
             // P9
             // 
-            this.P9.Controls.Add(this.button25);
+            this.P9.Controls.Add(this.button29);
             this.P9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.P9.Location = new System.Drawing.Point(3, 393);
             this.P9.Name = "P9";
             this.P9.Size = new System.Drawing.Size(59, 59);
             this.P9.TabIndex = 3;
-            this.P9.Tag = "9";
+            this.P9.Tag = "21";
             this.P9.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button25
-            // 
-            this.button25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button25.BackgroundImage")));
-            this.button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.Location = new System.Drawing.Point(0, 0);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(59, 59);
-            this.button25.TabIndex = 52;
-            this.button25.Tag = "w_Pawn";
-            this.button25.UseVisualStyleBackColor = true;
-            this.button25.Click += new System.EventHandler(this.btn_Click);
             // 
             // P2
             // 
@@ -196,22 +182,8 @@
             this.P2.Name = "P2";
             this.P2.Size = new System.Drawing.Size(59, 59);
             this.P2.TabIndex = 1;
-            this.P2.Tag = "2";
+            this.P2.Tag = "12";
             this.P2.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button30
-            // 
-            this.button30.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button30.BackgroundImage")));
-            this.button30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button30.Location = new System.Drawing.Point(0, 0);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(59, 59);
-            this.button30.TabIndex = 47;
-            this.button30.Tag = "w_Knight";
-            this.button30.UseVisualStyleBackColor = true;
-            this.button30.Click += new System.EventHandler(this.btn_Click);
             // 
             // P3
             // 
@@ -221,22 +193,8 @@
             this.P3.Name = "P3";
             this.P3.Size = new System.Drawing.Size(59, 59);
             this.P3.TabIndex = 1;
-            this.P3.Tag = "3";
+            this.P3.Tag = "13";
             this.P3.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button27
-            // 
-            this.button27.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button27.BackgroundImage")));
-            this.button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button27.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.Location = new System.Drawing.Point(0, 0);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(59, 59);
-            this.button27.TabIndex = 56;
-            this.button27.Tag = "w_Bishop_BlackSide";
-            this.button27.UseVisualStyleBackColor = true;
-            this.button27.Click += new System.EventHandler(this.btn_Click);
             // 
             // P4
             // 
@@ -246,22 +204,8 @@
             this.P4.Name = "P4";
             this.P4.Size = new System.Drawing.Size(59, 59);
             this.P4.TabIndex = 1;
-            this.P4.Tag = "4";
+            this.P4.Tag = "14";
             this.P4.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button26
-            // 
-            this.button26.BackgroundImage = global::Chess_Game.Properties.Resources.w_Queen;
-            this.button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button26.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.Location = new System.Drawing.Point(0, 0);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(59, 59);
-            this.button26.TabIndex = 44;
-            this.button26.Tag = "w_Queen";
-            this.button26.UseVisualStyleBackColor = true;
-            this.button26.Click += new System.EventHandler(this.btn_Click);
             // 
             // P5
             // 
@@ -271,22 +215,8 @@
             this.P5.Name = "P5";
             this.P5.Size = new System.Drawing.Size(59, 59);
             this.P5.TabIndex = 1;
-            this.P5.Tag = "5";
+            this.P5.Tag = "15";
             this.P5.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button24
-            // 
-            this.button24.BackgroundImage = global::Chess_Game.Properties.Resources.w_King;
-            this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button24.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Location = new System.Drawing.Point(0, 0);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(59, 59);
-            this.button24.TabIndex = 54;
-            this.button24.Tag = "w_king";
-            this.button24.UseVisualStyleBackColor = true;
-            this.button24.Click += new System.EventHandler(this.btn_Click);
             // 
             // P6
             // 
@@ -296,19 +226,20 @@
             this.P6.Name = "P6";
             this.P6.Size = new System.Drawing.Size(59, 59);
             this.P6.TabIndex = 1;
-            this.P6.Tag = "6";
+            this.P6.Tag = "16";
             this.P6.Click += new System.EventHandler(this.panel_Click);
             // 
             // button22
             // 
             this.button22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button22.BackgroundImage")));
             this.button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button22.Location = new System.Drawing.Point(0, 0);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(59, 59);
-            this.button22.TabIndex = 42;
+            this.button22.TabIndex = 75;
             this.button22.Tag = "w_Bishop_WhiteSide";
             this.button22.UseVisualStyleBackColor = true;
             this.button22.Click += new System.EventHandler(this.btn_Click);
@@ -321,122 +252,52 @@
             this.P7.Name = "P7";
             this.P7.Size = new System.Drawing.Size(59, 59);
             this.P7.TabIndex = 1;
-            this.P7.Tag = "7";
+            this.P7.Tag = "17";
             this.P7.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button20
-            // 
-            this.button20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button20.BackgroundImage")));
-            this.button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Location = new System.Drawing.Point(0, 0);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(59, 59);
-            this.button20.TabIndex = 48;
-            this.button20.Tag = "w_Knight";
-            this.button20.UseVisualStyleBackColor = true;
-            this.button20.Click += new System.EventHandler(this.btn_Click);
             // 
             // P16
             // 
-            this.P16.Controls.Add(this.button29);
+            this.P16.Controls.Add(this.button32);
             this.P16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.P16.Location = new System.Drawing.Point(458, 393);
             this.P16.Name = "P16";
             this.P16.Size = new System.Drawing.Size(59, 59);
             this.P16.TabIndex = 1;
-            this.P16.Tag = "16";
+            this.P16.Tag = "28";
             this.P16.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button29
-            // 
-            this.button29.BackgroundImage = global::Chess_Game.Properties.Resources.w_Pawn;
-            this.button29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button29.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button29.Location = new System.Drawing.Point(0, 0);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(59, 59);
-            this.button29.TabIndex = 38;
-            this.button29.Tag = "w_Pawn";
-            this.button29.UseVisualStyleBackColor = true;
-            this.button29.Click += new System.EventHandler(this.btn_Click);
             // 
             // P15
             // 
-            this.P15.Controls.Add(this.button21);
+            this.P15.Controls.Add(this.button23);
             this.P15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.P15.Location = new System.Drawing.Point(393, 393);
             this.P15.Name = "P15";
             this.P15.Size = new System.Drawing.Size(59, 59);
             this.P15.TabIndex = 1;
-            this.P15.Tag = "15";
+            this.P15.Tag = "27";
             this.P15.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button21
-            // 
-            this.button21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button21.BackgroundImage")));
-            this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Location = new System.Drawing.Point(0, 0);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(59, 59);
-            this.button21.TabIndex = 46;
-            this.button21.Tag = "w_Pawn";
-            this.button21.UseVisualStyleBackColor = true;
-            this.button21.Click += new System.EventHandler(this.btn_Click);
             // 
             // P14
             // 
-            this.P14.Controls.Add(this.button32);
+            this.P14.Controls.Add(this.button25);
             this.P14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.P14.Location = new System.Drawing.Point(328, 393);
             this.P14.Name = "P14";
             this.P14.Size = new System.Drawing.Size(59, 59);
             this.P14.TabIndex = 1;
-            this.P14.Tag = "14";
+            this.P14.Tag = "26";
             this.P14.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button32
-            // 
-            this.button32.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button32.BackgroundImage")));
-            this.button32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button32.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button32.Location = new System.Drawing.Point(0, 0);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(59, 59);
-            this.button32.TabIndex = 40;
-            this.button32.Tag = "w_Pawn";
-            this.button32.UseVisualStyleBackColor = true;
-            this.button32.Click += new System.EventHandler(this.btn_Click);
             // 
             // P13
             // 
-            this.P13.Controls.Add(this.button23);
+            this.P13.Controls.Add(this.button19);
             this.P13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.P13.Location = new System.Drawing.Point(263, 393);
             this.P13.Name = "P13";
             this.P13.Size = new System.Drawing.Size(59, 59);
             this.P13.TabIndex = 1;
-            this.P13.Tag = "13";
+            this.P13.Tag = "25";
             this.P13.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button23
-            // 
-            this.button23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button23.BackgroundImage")));
-            this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button23.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Location = new System.Drawing.Point(0, 0);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(59, 59);
-            this.button23.TabIndex = 50;
-            this.button23.Tag = "w_Pawn";
-            this.button23.UseVisualStyleBackColor = true;
-            this.button23.Click += new System.EventHandler(this.btn_Click);
             // 
             // P11
             // 
@@ -446,47 +307,19 @@
             this.P11.Name = "P11";
             this.P11.Size = new System.Drawing.Size(59, 59);
             this.P11.TabIndex = 1;
-            this.P11.Tag = "11";
+            this.P11.Tag = "23";
             this.P11.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button28
-            // 
-            this.button28.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button28.BackgroundImage")));
-            this.button28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button28.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Location = new System.Drawing.Point(0, 0);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(59, 59);
-            this.button28.TabIndex = 39;
-            this.button28.Tag = "w_Pawn";
-            this.button28.UseVisualStyleBackColor = true;
-            this.button28.Click += new System.EventHandler(this.btn_Click);
             // 
             // P10
             // 
-            this.P10.Controls.Add(this.button19);
+            this.P10.Controls.Add(this.button18);
             this.P10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.P10.Location = new System.Drawing.Point(68, 393);
             this.P10.Name = "P10";
             this.P10.Size = new System.Drawing.Size(59, 59);
             this.P10.TabIndex = 1;
-            this.P10.Tag = "10";
+            this.P10.Tag = "22";
             this.P10.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button19
-            // 
-            this.button19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button19.BackgroundImage")));
-            this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Location = new System.Drawing.Point(0, 0);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(59, 59);
-            this.button19.TabIndex = 67;
-            this.button19.Tag = "w_Pawn";
-            this.button19.UseVisualStyleBackColor = true;
-            this.button19.Click += new System.EventHandler(this.btn_Click);
             // 
             // P18
             // 
@@ -495,7 +328,7 @@
             this.P18.Name = "P18";
             this.P18.Size = new System.Drawing.Size(59, 59);
             this.P18.TabIndex = 1;
-            this.P18.Tag = "18";
+            this.P18.Tag = "32";
             this.P18.Click += new System.EventHandler(this.panel_Click);
             // 
             // P20
@@ -505,7 +338,7 @@
             this.P20.Name = "P20";
             this.P20.Size = new System.Drawing.Size(59, 59);
             this.P20.TabIndex = 1;
-            this.P20.Tag = "20";
+            this.P20.Tag = "34";
             this.P20.Click += new System.EventHandler(this.panel_Click);
             // 
             // P19
@@ -515,7 +348,7 @@
             this.P19.Name = "P19";
             this.P19.Size = new System.Drawing.Size(59, 59);
             this.P19.TabIndex = 1;
-            this.P19.Tag = "19";
+            this.P19.Tag = "33";
             this.P19.Click += new System.EventHandler(this.panel_Click);
             // 
             // P21
@@ -525,7 +358,7 @@
             this.P21.Name = "P21";
             this.P21.Size = new System.Drawing.Size(59, 59);
             this.P21.TabIndex = 1;
-            this.P21.Tag = "21";
+            this.P21.Tag = "35";
             this.P21.Click += new System.EventHandler(this.panel_Click);
             // 
             // P23
@@ -535,7 +368,7 @@
             this.P23.Name = "P23";
             this.P23.Size = new System.Drawing.Size(59, 59);
             this.P23.TabIndex = 1;
-            this.P23.Tag = "23";
+            this.P23.Tag = "37";
             this.P23.Click += new System.EventHandler(this.panel_Click);
             // 
             // P22
@@ -545,7 +378,7 @@
             this.P22.Name = "P22";
             this.P22.Size = new System.Drawing.Size(59, 59);
             this.P22.TabIndex = 1;
-            this.P22.Tag = "22";
+            this.P22.Tag = "36";
             this.P22.Click += new System.EventHandler(this.panel_Click);
             // 
             // P24
@@ -555,7 +388,7 @@
             this.P24.Name = "P24";
             this.P24.Size = new System.Drawing.Size(59, 59);
             this.P24.TabIndex = 1;
-            this.P24.Tag = "24";
+            this.P24.Tag = "38";
             this.P24.Click += new System.EventHandler(this.panel_Click);
             // 
             // P32
@@ -565,7 +398,7 @@
             this.P32.Name = "P32";
             this.P32.Size = new System.Drawing.Size(59, 59);
             this.P32.TabIndex = 1;
-            this.P32.Tag = "32";
+            this.P32.Tag = "48";
             this.P32.Click += new System.EventHandler(this.panel_Click);
             // 
             // P31
@@ -575,7 +408,7 @@
             this.P31.Name = "P31";
             this.P31.Size = new System.Drawing.Size(59, 59);
             this.P31.TabIndex = 1;
-            this.P31.Tag = "31";
+            this.P31.Tag = "47";
             this.P31.Click += new System.EventHandler(this.panel_Click);
             // 
             // P30
@@ -585,7 +418,7 @@
             this.P30.Name = "P30";
             this.P30.Size = new System.Drawing.Size(59, 59);
             this.P30.TabIndex = 1;
-            this.P30.Tag = "30";
+            this.P30.Tag = "46";
             this.P30.Click += new System.EventHandler(this.panel_Click);
             // 
             // P29
@@ -595,7 +428,7 @@
             this.P29.Name = "P29";
             this.P29.Size = new System.Drawing.Size(59, 59);
             this.P29.TabIndex = 1;
-            this.P29.Tag = "29";
+            this.P29.Tag = "45";
             this.P29.Click += new System.EventHandler(this.panel_Click);
             // 
             // P28
@@ -605,7 +438,7 @@
             this.P28.Name = "P28";
             this.P28.Size = new System.Drawing.Size(59, 59);
             this.P28.TabIndex = 1;
-            this.P28.Tag = "28";
+            this.P28.Tag = "44";
             this.P28.Click += new System.EventHandler(this.panel_Click);
             // 
             // P27
@@ -615,7 +448,7 @@
             this.P27.Name = "P27";
             this.P27.Size = new System.Drawing.Size(59, 59);
             this.P27.TabIndex = 1;
-            this.P27.Tag = "27";
+            this.P27.Tag = "43";
             this.P27.Click += new System.EventHandler(this.panel_Click);
             // 
             // P26
@@ -625,7 +458,7 @@
             this.P26.Name = "P26";
             this.P26.Size = new System.Drawing.Size(59, 59);
             this.P26.TabIndex = 1;
-            this.P26.Tag = "26";
+            this.P26.Tag = "42";
             this.P26.Click += new System.EventHandler(this.panel_Click);
             // 
             // P48
@@ -635,7 +468,7 @@
             this.P48.Name = "P48";
             this.P48.Size = new System.Drawing.Size(59, 59);
             this.P48.TabIndex = 1;
-            this.P48.Tag = "48";
+            this.P48.Tag = "68";
             this.P48.Click += new System.EventHandler(this.panel_Click);
             // 
             // P47
@@ -645,7 +478,7 @@
             this.P47.Name = "P47";
             this.P47.Size = new System.Drawing.Size(59, 59);
             this.P47.TabIndex = 1;
-            this.P47.Tag = "47";
+            this.P47.Tag = "67";
             this.P47.Click += new System.EventHandler(this.panel_Click);
             // 
             // P46
@@ -655,7 +488,7 @@
             this.P46.Name = "P46";
             this.P46.Size = new System.Drawing.Size(59, 59);
             this.P46.TabIndex = 1;
-            this.P46.Tag = "46";
+            this.P46.Tag = "66";
             this.P46.Click += new System.EventHandler(this.panel_Click);
             // 
             // P45
@@ -665,7 +498,7 @@
             this.P45.Name = "P45";
             this.P45.Size = new System.Drawing.Size(59, 59);
             this.P45.TabIndex = 1;
-            this.P45.Tag = "45";
+            this.P45.Tag = "65";
             this.P45.Click += new System.EventHandler(this.panel_Click);
             // 
             // P44
@@ -675,7 +508,7 @@
             this.P44.Name = "P44";
             this.P44.Size = new System.Drawing.Size(59, 59);
             this.P44.TabIndex = 1;
-            this.P44.Tag = "44";
+            this.P44.Tag = "64";
             this.P44.Click += new System.EventHandler(this.panel_Click);
             // 
             // P43
@@ -685,7 +518,7 @@
             this.P43.Name = "P43";
             this.P43.Size = new System.Drawing.Size(59, 59);
             this.P43.TabIndex = 1;
-            this.P43.Tag = "43";
+            this.P43.Tag = "63";
             this.P43.Click += new System.EventHandler(this.panel_Click);
             // 
             // P42
@@ -695,7 +528,7 @@
             this.P42.Name = "P42";
             this.P42.Size = new System.Drawing.Size(59, 59);
             this.P42.TabIndex = 1;
-            this.P42.Tag = "42";
+            this.P42.Tag = "62";
             this.P42.Click += new System.EventHandler(this.panel_Click);
             // 
             // P50
@@ -706,172 +539,74 @@
             this.P50.Name = "P50";
             this.P50.Size = new System.Drawing.Size(59, 59);
             this.P50.TabIndex = 1;
-            this.P50.Tag = "50";
+            this.P50.Tag = "72";
             this.P50.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button9
-            // 
-            this.button9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button9.BackgroundImage")));
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(0, 0);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(59, 59);
-            this.button9.TabIndex = 65;
-            this.button9.Tag = "b_Pawn";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.btn_Click);
             // 
             // P51
             // 
-            this.P51.Controls.Add(this.button11);
+            this.P51.Controls.Add(this.button10);
             this.P51.Dock = System.Windows.Forms.DockStyle.Fill;
             this.P51.Location = new System.Drawing.Point(133, 68);
             this.P51.Name = "P51";
             this.P51.Size = new System.Drawing.Size(59, 59);
             this.P51.TabIndex = 1;
-            this.P51.Tag = "51";
+            this.P51.Tag = "73";
             this.P51.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button11
-            // 
-            this.button11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button11.BackgroundImage")));
-            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Location = new System.Drawing.Point(0, 0);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(59, 59);
-            this.button11.TabIndex = 58;
-            this.button11.Tag = "b_Pawn";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.btn_Click);
             // 
             // P52
             // 
-            this.P52.Controls.Add(this.button13);
+            this.P52.Controls.Add(this.button12);
             this.P52.Dock = System.Windows.Forms.DockStyle.Fill;
             this.P52.Location = new System.Drawing.Point(198, 68);
             this.P52.Name = "P52";
             this.P52.Size = new System.Drawing.Size(59, 59);
             this.P52.TabIndex = 1;
-            this.P52.Tag = "52";
+            this.P52.Tag = "74";
             this.P52.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button13
-            // 
-            this.button13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button13.BackgroundImage")));
-            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Location = new System.Drawing.Point(0, 0);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(59, 59);
-            this.button13.TabIndex = 51;
-            this.button13.Tag = "b_Pawn";
-            this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.btn_Click);
             // 
             // P53
             // 
-            this.P53.Controls.Add(this.button12);
+            this.P53.Controls.Add(this.button15);
             this.P53.Dock = System.Windows.Forms.DockStyle.Fill;
             this.P53.Location = new System.Drawing.Point(263, 68);
             this.P53.Name = "P53";
             this.P53.Size = new System.Drawing.Size(59, 59);
             this.P53.TabIndex = 1;
-            this.P53.Tag = "53";
+            this.P53.Tag = "75";
             this.P53.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button12
-            // 
-            this.button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button12.BackgroundImage")));
-            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Location = new System.Drawing.Point(0, 0);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(59, 59);
-            this.button12.TabIndex = 42;
-            this.button12.Tag = "b_Pawn";
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.btn_Click);
             // 
             // P54
             // 
-            this.P54.Controls.Add(this.button16);
+            this.P54.Controls.Add(this.button14);
             this.P54.Dock = System.Windows.Forms.DockStyle.Fill;
             this.P54.Location = new System.Drawing.Point(328, 68);
             this.P54.Name = "P54";
             this.P54.Size = new System.Drawing.Size(59, 59);
             this.P54.TabIndex = 1;
-            this.P54.Tag = "54";
+            this.P54.Tag = "76";
             this.P54.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button16
-            // 
-            this.button16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button16.BackgroundImage")));
-            this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Location = new System.Drawing.Point(0, 0);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(59, 59);
-            this.button16.TabIndex = 45;
-            this.button16.Tag = "b_Pawn";
-            this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.btn_Click);
             // 
             // P55
             // 
-            this.P55.Controls.Add(this.button15);
+            this.P55.Controls.Add(this.button11);
             this.P55.Dock = System.Windows.Forms.DockStyle.Fill;
             this.P55.Location = new System.Drawing.Point(393, 68);
             this.P55.Name = "P55";
             this.P55.Size = new System.Drawing.Size(59, 59);
             this.P55.TabIndex = 1;
-            this.P55.Tag = "55";
+            this.P55.Tag = "77";
             this.P55.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button15
-            // 
-            this.button15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button15.BackgroundImage")));
-            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Location = new System.Drawing.Point(0, 0);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(59, 59);
-            this.button15.TabIndex = 53;
-            this.button15.Tag = "b_Pawn";
-            this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.btn_Click);
             // 
             // P56
             // 
-            this.P56.Controls.Add(this.button14);
+            this.P56.Controls.Add(this.button13);
             this.P56.Dock = System.Windows.Forms.DockStyle.Fill;
             this.P56.Location = new System.Drawing.Point(458, 68);
             this.P56.Name = "P56";
             this.P56.Size = new System.Drawing.Size(59, 59);
             this.P56.TabIndex = 1;
-            this.P56.Tag = "56";
+            this.P56.Tag = "78";
             this.P56.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button14
-            // 
-            this.button14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button14.BackgroundImage")));
-            this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Location = new System.Drawing.Point(0, 0);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(59, 59);
-            this.button14.TabIndex = 55;
-            this.button14.Tag = "b_Pawn";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.btn_Click);
             // 
             // P63
             // 
@@ -881,22 +616,8 @@
             this.P63.Name = "P63";
             this.P63.Size = new System.Drawing.Size(59, 59);
             this.P63.TabIndex = 1;
-            this.P63.Tag = "63";
+            this.P63.Tag = "87";
             this.P63.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(59, 59);
-            this.button2.TabIndex = 60;
-            this.button2.Tag = "b_Knight";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.btn_Click);
             // 
             // P62
             // 
@@ -906,22 +627,8 @@
             this.P62.Name = "P62";
             this.P62.Size = new System.Drawing.Size(59, 59);
             this.P62.TabIndex = 1;
-            this.P62.Tag = "62";
+            this.P62.Tag = "86";
             this.P62.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button6
-            // 
-            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(0, 0);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(59, 59);
-            this.button6.TabIndex = 62;
-            this.button6.Tag = "b_Bishop_BlackSide";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.btn_Click);
             // 
             // P61
             // 
@@ -931,22 +638,8 @@
             this.P61.Name = "P61";
             this.P61.Size = new System.Drawing.Size(59, 59);
             this.P61.TabIndex = 1;
-            this.P61.Tag = "61";
+            this.P61.Tag = "85";
             this.P61.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button5
-            // 
-            this.button5.BackgroundImage = global::Chess_Game.Properties.Resources.b_King;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(0, 0);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(59, 59);
-            this.button5.TabIndex = 63;
-            this.button5.Tag = "b_king";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.btn_Click);
             // 
             // P60
             // 
@@ -956,22 +649,8 @@
             this.P60.Name = "P60";
             this.P60.Size = new System.Drawing.Size(59, 59);
             this.P60.TabIndex = 1;
-            this.P60.Tag = "60";
+            this.P60.Tag = "84";
             this.P60.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = global::Chess_Game.Properties.Resources.b_Queen;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(0, 0);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(59, 59);
-            this.button4.TabIndex = 64;
-            this.button4.Tag = "b_Queen";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.btn_Click);
             // 
             // P59
             // 
@@ -981,22 +660,8 @@
             this.P59.Name = "P59";
             this.P59.Size = new System.Drawing.Size(59, 59);
             this.P59.TabIndex = 1;
-            this.P59.Tag = "59";
+            this.P59.Tag = "83";
             this.P59.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(0, 0);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(59, 59);
-            this.button3.TabIndex = 59;
-            this.button3.Tag = "b_Bishop_WhiteSide";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.btn_Click);
             // 
             // P58
             // 
@@ -1006,47 +671,19 @@
             this.P58.Name = "P58";
             this.P58.Size = new System.Drawing.Size(59, 59);
             this.P58.TabIndex = 1;
-            this.P58.Tag = "58";
+            this.P58.Tag = "82";
             this.P58.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button7
-            // 
-            this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(0, 0);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(59, 59);
-            this.button7.TabIndex = 61;
-            this.button7.Tag = "b_Knight";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.btn_Click);
             // 
             // P49
             // 
-            this.P49.Controls.Add(this.button10);
+            this.P49.Controls.Add(this.button16);
             this.P49.Dock = System.Windows.Forms.DockStyle.Fill;
             this.P49.Location = new System.Drawing.Point(3, 68);
             this.P49.Name = "P49";
             this.P49.Size = new System.Drawing.Size(59, 59);
             this.P49.TabIndex = 3;
-            this.P49.Tag = "49";
+            this.P49.Tag = "71";
             this.P49.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button10
-            // 
-            this.button10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button10.BackgroundImage")));
-            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(0, 0);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(59, 59);
-            this.button10.TabIndex = 49;
-            this.button10.Tag = "b_Pawn";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.btn_Click);
             // 
             // P41
             // 
@@ -1055,7 +692,7 @@
             this.P41.Name = "P41";
             this.P41.Size = new System.Drawing.Size(59, 59);
             this.P41.TabIndex = 3;
-            this.P41.Tag = "41";
+            this.P41.Tag = "61";
             this.P41.Click += new System.EventHandler(this.panel_Click);
             // 
             // P25
@@ -1065,7 +702,7 @@
             this.P25.Name = "P25";
             this.P25.Size = new System.Drawing.Size(59, 59);
             this.P25.TabIndex = 3;
-            this.P25.Tag = "25";
+            this.P25.Tag = "41";
             this.P25.Click += new System.EventHandler(this.panel_Click);
             // 
             // P17
@@ -1075,33 +712,19 @@
             this.P17.Name = "P17";
             this.P17.Size = new System.Drawing.Size(59, 59);
             this.P17.TabIndex = 3;
-            this.P17.Tag = "17";
+            this.P17.Tag = "31";
             this.P17.Click += new System.EventHandler(this.panel_Click);
             // 
             // P1
             // 
-            this.P1.Controls.Add(this.button17);
+            this.P1.Controls.Add(this.button31);
             this.P1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.P1.Location = new System.Drawing.Point(3, 458);
             this.P1.Name = "P1";
             this.P1.Size = new System.Drawing.Size(59, 59);
             this.P1.TabIndex = 3;
-            this.P1.Tag = "1";
+            this.P1.Tag = "11";
             this.P1.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button17
-            // 
-            this.button17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button17.BackgroundImage")));
-            this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Location = new System.Drawing.Point(0, 0);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(59, 59);
-            this.button17.TabIndex = 57;
-            this.button17.Tag = "w_Rook";
-            this.button17.UseVisualStyleBackColor = true;
-            this.button17.Click += new System.EventHandler(this.btn_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -1116,7 +739,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 65F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 65F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 65F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 65F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 239F));
             this.tableLayoutPanel1.Controls.Add(this.P41, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.P59, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.P64, 7, 0);
@@ -1195,7 +818,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 65F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 65F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 65F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(520, 521);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(522, 523);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // P64
@@ -1206,22 +829,8 @@
             this.P64.Name = "P64";
             this.P64.Size = new System.Drawing.Size(59, 59);
             this.P64.TabIndex = 1;
-            this.P64.Tag = "64";
+            this.P64.Tag = "88";
             this.P64.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(59, 59);
-            this.button1.TabIndex = 37;
-            this.button1.Tag = "b_Rock";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.btn_Click);
             // 
             // P57
             // 
@@ -1231,22 +840,8 @@
             this.P57.Name = "P57";
             this.P57.Size = new System.Drawing.Size(59, 59);
             this.P57.TabIndex = 2;
-            this.P57.Tag = "57";
+            this.P57.Tag = "81";
             this.P57.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button8
-            // 
-            this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(0, 0);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(59, 59);
-            this.button8.TabIndex = 66;
-            this.button8.Tag = "b_Rock";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.btn_Click);
             // 
             // P33
             // 
@@ -1255,7 +850,7 @@
             this.P33.Name = "P33";
             this.P33.Size = new System.Drawing.Size(59, 59);
             this.P33.TabIndex = 3;
-            this.P33.Tag = "33";
+            this.P33.Tag = "51";
             this.P33.Click += new System.EventHandler(this.panel_Click);
             // 
             // P34
@@ -1265,7 +860,7 @@
             this.P34.Name = "P34";
             this.P34.Size = new System.Drawing.Size(59, 59);
             this.P34.TabIndex = 1;
-            this.P34.Tag = "34";
+            this.P34.Tag = "52";
             this.P34.Click += new System.EventHandler(this.panel_Click);
             // 
             // P35
@@ -1275,7 +870,7 @@
             this.P35.Name = "P35";
             this.P35.Size = new System.Drawing.Size(59, 59);
             this.P35.TabIndex = 1;
-            this.P35.Tag = "35";
+            this.P35.Tag = "53";
             this.P35.Click += new System.EventHandler(this.panel_Click);
             // 
             // P36
@@ -1285,7 +880,7 @@
             this.P36.Name = "P36";
             this.P36.Size = new System.Drawing.Size(59, 59);
             this.P36.TabIndex = 1;
-            this.P36.Tag = "36";
+            this.P36.Tag = "54";
             this.P36.Click += new System.EventHandler(this.panel_Click);
             // 
             // P37
@@ -1295,7 +890,7 @@
             this.P37.Name = "P37";
             this.P37.Size = new System.Drawing.Size(59, 59);
             this.P37.TabIndex = 1;
-            this.P37.Tag = "37";
+            this.P37.Tag = "55";
             this.P37.Click += new System.EventHandler(this.panel_Click);
             // 
             // P38
@@ -1305,7 +900,7 @@
             this.P38.Name = "P38";
             this.P38.Size = new System.Drawing.Size(59, 59);
             this.P38.TabIndex = 1;
-            this.P38.Tag = "38";
+            this.P38.Tag = "56";
             this.P38.Click += new System.EventHandler(this.panel_Click);
             // 
             // P39
@@ -1315,7 +910,7 @@
             this.P39.Name = "P39";
             this.P39.Size = new System.Drawing.Size(59, 59);
             this.P39.TabIndex = 1;
-            this.P39.Tag = "39";
+            this.P39.Tag = "57";
             this.P39.Click += new System.EventHandler(this.panel_Click);
             // 
             // P40
@@ -1325,77 +920,519 @@
             this.P40.Name = "P40";
             this.P40.Size = new System.Drawing.Size(59, 59);
             this.P40.TabIndex = 1;
-            this.P40.Tag = "40";
+            this.P40.Tag = "58";
             this.P40.Click += new System.EventHandler(this.panel_Click);
             // 
             // P12
             // 
-            this.P12.Controls.Add(this.button18);
+            this.P12.Controls.Add(this.button21);
             this.P12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.P12.Location = new System.Drawing.Point(198, 393);
             this.P12.Name = "P12";
             this.P12.Size = new System.Drawing.Size(59, 59);
             this.P12.TabIndex = 1;
-            this.P12.Tag = "12";
+            this.P12.Tag = "24";
             this.P12.Click += new System.EventHandler(this.panel_Click);
-            // 
-            // button18
-            // 
-            this.button18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button18.BackgroundImage")));
-            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Location = new System.Drawing.Point(0, 0);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(59, 59);
-            this.button18.TabIndex = 68;
-            this.button18.Tag = "w_Pawn";
-            this.button18.UseVisualStyleBackColor = true;
-            this.button18.Click += new System.EventHandler(this.btn_Click);
             // 
             // P8
             // 
-            this.P8.Controls.Add(this.button31);
+            this.P8.Controls.Add(this.button17);
             this.P8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.P8.Location = new System.Drawing.Point(458, 458);
             this.P8.Name = "P8";
             this.P8.Size = new System.Drawing.Size(59, 59);
             this.P8.TabIndex = 2;
-            this.P8.Tag = "8";
-            // 
-            // button31
-            // 
-            this.button31.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button31.BackgroundImage")));
-            this.button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button31.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button31.Location = new System.Drawing.Point(0, 0);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(59, 59);
-            this.button31.TabIndex = 43;
-            this.button31.Tag = "w_Rook";
-            this.button31.UseVisualStyleBackColor = true;
-            this.button31.Click += new System.EventHandler(this.btn_Click);
+            this.P8.Tag = "18";
+            this.P8.Click += new System.EventHandler(this.panel_Click);
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.tableLayoutPanel1);
             this.panel1.Location = new System.Drawing.Point(2, 1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(628, 571);
+            this.panel1.Size = new System.Drawing.Size(524, 524);
             this.panel1.TabIndex = 4;
+            // 
+            // button31
+            // 
+            this.button31.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button31.BackgroundImage")));
+            this.button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button31.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button31.Location = new System.Drawing.Point(0, 0);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(59, 59);
+            this.button31.TabIndex = 78;
+            this.button31.Tag = "w_Rook";
+            this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button17
+            // 
+            this.button17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button17.BackgroundImage")));
+            this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button17.Location = new System.Drawing.Point(0, 0);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(59, 59);
+            this.button17.TabIndex = 90;
+            this.button17.Tag = "w_Rook";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button29
+            // 
+            this.button29.BackgroundImage = global::Chess_Game.Properties.Resources.w_Pawn;
+            this.button29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button29.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button29.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button29.Location = new System.Drawing.Point(0, 0);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(59, 59);
+            this.button29.TabIndex = 71;
+            this.button29.Tag = "w_Pawn";
+            this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button18
+            // 
+            this.button18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button18.BackgroundImage")));
+            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Location = new System.Drawing.Point(0, 0);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(59, 59);
+            this.button18.TabIndex = 104;
+            this.button18.Tag = "w_Pawn";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button30
+            // 
+            this.button30.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button30.BackgroundImage")));
+            this.button30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button30.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button30.Location = new System.Drawing.Point(0, 0);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(59, 59);
+            this.button30.TabIndex = 80;
+            this.button30.Tag = "w_Knight";
+            this.button30.UseVisualStyleBackColor = true;
+            this.button30.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button28
+            // 
+            this.button28.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button28.BackgroundImage")));
+            this.button28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button28.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button28.Location = new System.Drawing.Point(0, 0);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(59, 59);
+            this.button28.TabIndex = 72;
+            this.button28.Tag = "w_Pawn";
+            this.button28.UseVisualStyleBackColor = true;
+            this.button28.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button27
+            // 
+            this.button27.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button27.BackgroundImage")));
+            this.button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button27.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button27.Location = new System.Drawing.Point(0, 0);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(59, 59);
+            this.button27.TabIndex = 91;
+            this.button27.Tag = "w_Bishop_BlackSide";
+            this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button21
+            // 
+            this.button21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button21.BackgroundImage")));
+            this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.Location = new System.Drawing.Point(0, 0);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(59, 59);
+            this.button21.TabIndex = 80;
+            this.button21.Tag = "w_Pawn";
+            this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button26
+            // 
+            this.button26.BackgroundImage = global::Chess_Game.Properties.Resources.w_Queen;
+            this.button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button26.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button26.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button26.Location = new System.Drawing.Point(0, 0);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(59, 59);
+            this.button26.TabIndex = 77;
+            this.button26.Tag = "w_Queen";
+            this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button19
+            // 
+            this.button19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button19.BackgroundImage")));
+            this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button19.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.Location = new System.Drawing.Point(0, 0);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(59, 59);
+            this.button19.TabIndex = 100;
+            this.button19.Tag = "w_Pawn";
+            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button24
+            // 
+            this.button24.BackgroundImage = global::Chess_Game.Properties.Resources.w_King;
+            this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button24.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button24.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button24.Location = new System.Drawing.Point(0, 0);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(59, 59);
+            this.button24.TabIndex = 87;
+            this.button24.Tag = "w_King";
+            this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button25
+            // 
+            this.button25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button25.BackgroundImage")));
+            this.button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button25.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button25.Location = new System.Drawing.Point(0, 0);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(59, 59);
+            this.button25.TabIndex = 85;
+            this.button25.Tag = "w_Pawn";
+            this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button23
+            // 
+            this.button23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button23.BackgroundImage")));
+            this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button23.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button23.Location = new System.Drawing.Point(0, 0);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(59, 59);
+            this.button23.TabIndex = 83;
+            this.button23.Tag = "w_Pawn";
+            this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button20
+            // 
+            this.button20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button20.BackgroundImage")));
+            this.button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Location = new System.Drawing.Point(0, 0);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(59, 59);
+            this.button20.TabIndex = 81;
+            this.button20.Tag = "w_Knight";
+            this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button32
+            // 
+            this.button32.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button32.BackgroundImage")));
+            this.button32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button32.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button32.Location = new System.Drawing.Point(0, 0);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(59, 59);
+            this.button32.TabIndex = 73;
+            this.button32.Tag = "w_Pawn";
+            this.button32.UseVisualStyleBackColor = true;
+            this.button32.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button13
+            // 
+            this.button13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button13.BackgroundImage")));
+            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Location = new System.Drawing.Point(0, 0);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(59, 59);
+            this.button13.TabIndex = 84;
+            this.button13.Tag = "b_Pawn";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button8
+            // 
+            this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
+            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Location = new System.Drawing.Point(0, 0);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(59, 59);
+            this.button8.TabIndex = 99;
+            this.button8.Tag = "b_Rook";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(59, 59);
+            this.button1.TabIndex = 70;
+            this.button1.Tag = "b_Rook";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(0, 0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(59, 59);
+            this.button2.TabIndex = 93;
+            this.button2.Tag = "b_Knight";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button11
+            // 
+            this.button11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button11.BackgroundImage")));
+            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Location = new System.Drawing.Point(0, 0);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(59, 59);
+            this.button11.TabIndex = 91;
+            this.button11.Tag = "b_Pawn";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button14
+            // 
+            this.button14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button14.BackgroundImage")));
+            this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Location = new System.Drawing.Point(0, 0);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(59, 59);
+            this.button14.TabIndex = 88;
+            this.button14.Tag = "b_Pawn";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Location = new System.Drawing.Point(0, 0);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(59, 59);
+            this.button6.TabIndex = 95;
+            this.button6.Tag = "b_Bishop_BlackSide";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackgroundImage = global::Chess_Game.Properties.Resources.b_King;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Location = new System.Drawing.Point(0, 0);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(59, 59);
+            this.button5.TabIndex = 97;
+            this.button5.Tag = "b_King";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button15
+            // 
+            this.button15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button15.BackgroundImage")));
+            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Location = new System.Drawing.Point(0, 0);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(59, 59);
+            this.button15.TabIndex = 86;
+            this.button15.Tag = "b_Pawn";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackgroundImage = global::Chess_Game.Properties.Resources.b_Queen;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(0, 0);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(59, 59);
+            this.button4.TabIndex = 99;
+            this.button4.Tag = "b_Queen";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button12
+            // 
+            this.button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button12.BackgroundImage")));
+            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Location = new System.Drawing.Point(0, 0);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(59, 59);
+            this.button12.TabIndex = 75;
+            this.button12.Tag = "b_Pawn";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(0, 0);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(59, 59);
+            this.button3.TabIndex = 92;
+            this.button3.Tag = "b_Bishop_WhiteSide";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button10
+            // 
+            this.button10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button10.BackgroundImage")));
+            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Location = new System.Drawing.Point(0, 0);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(59, 59);
+            this.button10.TabIndex = 82;
+            this.button10.Tag = "b_Pawn";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button7
+            // 
+            this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Location = new System.Drawing.Point(0, 0);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(59, 59);
+            this.button7.TabIndex = 94;
+            this.button7.Tag = "b_Knight";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button9
+            // 
+            this.button9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button9.BackgroundImage")));
+            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Location = new System.Drawing.Point(0, 0);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(59, 59);
+            this.button9.TabIndex = 98;
+            this.button9.Tag = "b_Pawn";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // button16
+            // 
+            this.button16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button16.BackgroundImage")));
+            this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Location = new System.Drawing.Point(0, 0);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(59, 59);
+            this.button16.TabIndex = 78;
+            this.button16.Tag = "b_Pawn";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.btn_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(942, 702);
+            this.ClientSize = new System.Drawing.Size(524, 522);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(542, 569);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " Chess";
             this.P9.ResumeLayout(false);
             this.P2.ResumeLayout(false);
@@ -1436,7 +1473,6 @@
         }
 
         #endregion
-
         private System.Windows.Forms.Panel P9;
         private System.Windows.Forms.Panel P2;
         private System.Windows.Forms.Panel P3;
@@ -1494,11 +1530,6 @@
         private System.Windows.Forms.Panel P57;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel P64;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Panel P33;
         private System.Windows.Forms.Panel P34;
         private System.Windows.Forms.Panel P35;
@@ -1507,34 +1538,39 @@
         private System.Windows.Forms.Panel P38;
         private System.Windows.Forms.Panel P39;
         private System.Windows.Forms.Panel P40;
+        private System.Windows.Forms.Panel P12;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button29;
+        private System.Windows.Forms.Button button30;
         private System.Windows.Forms.Button button27;
         private System.Windows.Forms.Button button26;
         private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Panel P12;
-        private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Button button32;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button31;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button31;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button17;
     }
 }
 
